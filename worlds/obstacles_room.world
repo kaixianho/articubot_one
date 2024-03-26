@@ -1491,8 +1491,8 @@
       </link>
       <static>0</static>
       <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
-        <parameters>/home/ho/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml</parameters>
-        <parameters>/home/ho/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml</parameters>
+        <parameters>/home/ho/dev_ws/install/autobot_two/share/autobot_two/config/my_controllers.yaml</parameters>
+        <parameters>/home/ho/dev_ws/install/autobot_two/share/autobot_two/config/gaz_ros2_ctl_use_sim.yaml</parameters>
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
     </model>
