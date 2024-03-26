@@ -1,6 +1,6 @@
 ## open the gazebo, with maps (take note of the save .world location, got dev_ws or not?)  
 ```
-ros2 launch autobot_two launch_sim.launch.py world:=./dev_ws/src/articubot_one/worlds/obstacles_room.world 
+ros2 launch articubot_one launch_sim.launch.py world:=./dev_ws/src/articubot_one/worlds/obstacles_room.world 
 ```
 ## launch slam toolbox - for mapping anf localization
 ```
