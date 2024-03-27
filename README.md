@@ -1,9 +1,8 @@
-@ -1,24 +0,0 @@
 ## open the gazebo, with maps (take note of the save .world location, got dev_ws or not?)  
 ```
 ros2 launch articubot_one launch_sim.launch.py world:=./dev_ws/src/articubot_one/worlds/obstacles_room.world 
 ```
-## launch slam toolbox - for mapping anf localization
+## launch slam toolbox - for mapping and localization
 ```
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./dev_ws/src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=true 
 ```
