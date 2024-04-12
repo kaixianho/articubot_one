@@ -19,36 +19,6 @@
     <xacro:property name="steer_offset" value="0.02" />
     <xacro:property name="x_axle_offset" value="0.2" /> <!-- track lenght (length of body)-->
 
-    <!-- Half of the new chassis length
-    <xacro:property name="wheel_offset_x" value="${chassis_length / 2}"/> 
-    Half of the new chassis width
-    <xacro:property name="wheel_offset_y" value="${chassis_width / 2 + wheel_thickness / 2 }"/> 
-    Half of the front chassis length
-    <xacro:property name="front_wheel_offset_x" value="${chassis_length / 4}"/> 
-    Half of the rear chassis length
-    <xacro:property name="rear_wheel_offset_x" value="${-chassis_length / 4}"/> 
-    <xacro:property name="wheel_offset_z" value="0.01"/> -->
-
-    <material name="white">
-        <color rgba="1 1 1 1" />
-    </material>
-
-    <material name="orange">
-        <color rgba="1 0.3 0.1 1"/>
-    </material>
-
-    <material name="blue">
-        <color rgba="0.2 0.2 1 1"/>
-    </material>
-
-    <material name="black">
-        <color rgba="0 0 0 1"/>
-    </material>
-
-    <material name="red">
-        <color rgba="1 0 0 1"/>
-    </material>
-
     <!-- BASE LINK -->
 
     <link name="base_link">
